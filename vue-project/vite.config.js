@@ -16,6 +16,9 @@ export default defineConfig({
     },
   },
   server: {
+    host: '0.0.0.0',
+    port: 10000,
+    allowedHosts: ['crudlaptops-fronted.onrender.com'],
     proxy: {
       '/api': 'http://127.0.0.1:8000'
     }
