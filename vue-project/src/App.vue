@@ -8,7 +8,9 @@
         v-model="codigosPegados"
         rows="4"
         class="textarea"
-        placeholder="EQ001\nEQ002\nEQ999"
+        placeholder="EQ001
+EQ002
+EQ999"
       ></textarea>
       <div class="button-group">
         <button class="btn btn-primary" @click="filtrarPorCodigos">
